@@ -22,14 +22,7 @@ interface Transaction {
 }
 
 export default function BookTransactions() {
-  //const router = useRouter();
-  // const {isLoaded, userId} = useAuth();
-  // if (!isLoaded) return <div>Loading...</div>;
-  // if(!userId){
-  //   <div>
-  //     Sign in to view content
-  //   </div>
-  // }
+  
   // Toggle State: 'issue' or 'return'
   const [mode, setMode] = useState<"issue" | "return">("issue");
 

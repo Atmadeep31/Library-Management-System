@@ -77,7 +77,7 @@ export default async function HomePage() {
               <div className="text-2xl mb-2 group-hover:scale-110 transition-transform inline-block">🔄</div>
               <h3 className="font-bold text-white text-lg mb-1">Circulation Desk</h3>
               <p className="text-slate-400 text-xs mb-4">Issue inventory titles to active accounts and process returns or late penalties.</p>
-              <Link href="/transactions" className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold px-4 py-2 rounded transition shadow-sm">
+              <Link href="/action" className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold px-4 py-2 rounded transition shadow-sm">
                 Log Transactions →
               </Link>
             </div>
