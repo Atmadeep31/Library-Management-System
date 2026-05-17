@@ -32,7 +32,7 @@ export default function RootLayout({
           <Navbar />
 
           {/* Main Application Interface Slot */}
-          <main className="max-w-7xl mx-auto pt-6">
+          <main className=" mx-auto pt-6">
             {children}
           </main>
         </ClerkProvider>
